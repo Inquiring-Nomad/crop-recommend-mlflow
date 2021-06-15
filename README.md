@@ -1,4 +1,4 @@
-#Crop recommendation
+# Crop recommendation
 
 Using a kaggle dataset taken from :
 
@@ -47,7 +47,7 @@ The UI of the app is created with [streamlit](https://streamlit.io/).
 
 It is deployed as a heroku app , available at :
 
-###Data analysis
+### Data analysis
 
 Exploratory data analysis is done with the help of Autoviz and Pandas Profiling. The plots can be found in 
 
