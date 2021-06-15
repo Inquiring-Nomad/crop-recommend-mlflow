@@ -41,6 +41,16 @@ The model with the best test score is copied over to the `production-app/` folde
 
 `mlflow run --no-conda --experiment-name 'Crop prediction' -e xgb   .`
 
+
+#### Some screenshots from the MLFlow UI:
+
+
+![Screenshot 2021-06-15 at 20 56 02](https://user-images.githubusercontent.com/84481449/122117204-7c9df700-ce1e-11eb-9308-193513a7d4b7.png)
+![Screenshot 2021-06-15 at 20 56 22](https://user-images.githubusercontent.com/84481449/122117242-86bff580-ce1e-11eb-8abc-c2209f62697d.png)
+![Screenshot 2021-06-15 at 20 56 30](https://user-images.githubusercontent.com/84481449/122117262-8d4e6d00-ce1e-11eb-8bbb-53773daa21f1.png)
+![Screenshot 2021-06-15 at 20 56 46](https://user-images.githubusercontent.com/84481449/122117283-95a6a800-ce1e-11eb-8f68-09720b82cf04.png)
+
+
 ### Production app
 
 The UI of the app is created with [streamlit](https://streamlit.io/).
