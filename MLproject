@@ -1,0 +1,39 @@
+name: crop-prediction
+
+#conda_env: eda.yaml
+# Can have a docker_env instead of a conda_env, e.g.
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  knn:
+    parameters:
+      data_file:
+        type: path
+        default: 'data/Crop_recommendation.csv'
+      random_state:
+        type: float
+        default: 42
+    command: "python src/knn.py {data_file}"
+  xgb:
+    parameters:
+      data_file:
+        type: path
+        default: 'data/Crop_recommendation.csv'
+      random_state:
+        type: float
+        default: 42
+    command: "python src/xgb.py {data_file}"
+  random-forest:
+    parameters:
+      data_file:
+        type: path
+        default: 'data/Crop_recommendation.csv'
+      random_state:
+        type: float
+        default: 42
+    command: "python src/random-forest.py {data_file}"
+
+  best:
+    command: "python bestmodel.py"
+
