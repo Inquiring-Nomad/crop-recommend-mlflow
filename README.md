@@ -1,5 +1,9 @@
 # Crop recommendation
 
+A model was trained to suggest a crop to cultivate based on some soil and climate data . It is deployed to Heroku here:
+
+https://in-crop-suggestion.herokuapp.com/
+
 Using a kaggle dataset taken from :
 
 https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
@@ -56,6 +60,8 @@ The model with the best test score is copied over to the `production-app/` folde
 The UI of the app is created with [streamlit](https://streamlit.io/).
 
 It is deployed as a heroku app , available at :
+
+https://in-crop-suggestion.herokuapp.com/
 
 ### Data analysis
 
